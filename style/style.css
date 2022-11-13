@@ -65,6 +65,9 @@ main{
 #diferencial-imagem img{
     width: 800px;
 }
+#diferencial-texto{
+    margin:0 30px 0 30px ;
+}
 #diferencial-texto h1{
     font-family: 'bold';
     font-size: 50px;
@@ -77,12 +80,13 @@ main{
     position: relative;  
     margin-top: 100px;
     width: 300px;
+    z-index: 2;
 }
 #diferencial:hover #estrela1{
         position: relative;
         right:200px;
         bottom: 150px;
-        z-index: -1;
+        z-index: 1;
         animation: star1 2s forwards;
         animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
         opacity: 1;
@@ -91,7 +95,7 @@ main{
     position: relative;
     right: 230px;
     bottom: 150px;
-    z-index: -1;
+    z-index: 1;
     animation: star2 2s forwards;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     opacity: 1;
@@ -100,7 +104,7 @@ main{
     position: relative;
     right: 330px;
     bottom: 150px;
-    z-index: -1;
+    z-index: 1;
     animation: star3 2s forwards;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     opacity: 1;
@@ -109,7 +113,7 @@ main{
     position: relative;
     right: 400px;
     bottom: 150px;
-    z-index: -1;
+    z-index: 1;
     animation: star4 2s forwards;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     opacity: 1;
@@ -118,7 +122,7 @@ main{
     position: relative;
     right: 460px;
     bottom: 150px;
-    z-index: -1;
+    z-index: 1;
     animation: star5 2s forwards;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     opacity: 1;
@@ -127,7 +131,7 @@ main{
     position: relative;
     right: 530px;
     bottom: 150px;
-    z-index: -1;
+    z-index: 1;
     animation: star6 2s forwards;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     opacity: 1;
@@ -141,42 +145,42 @@ main{
         right:200px;
         bottom: 150px;
     animation: star11 1s forwards;
-    z-index: -1;
+    z-index: 1;
 }
 #diferencial #estrela2{
     animation: star22 1s forwards;
     position: relative;
     right: 230px;
     bottom: 150px;
-    z-index: -1;
+    z-index: 1;
 }
 #diferencial #estrela3{
     animation: star33 1s forwards;
     position: relative;
     right: 330px;
     bottom: 150px;
-    z-index: -1;
+    z-index: 1;
 }
 #diferencial #estrela4{
     animation: star44 1s forwards;
     position: relative;
     right: 400px;
     bottom: 150px;
-    z-index: -1;
+    z-index: 1;
 }
 #diferencial #estrela5{
     animation: star55 1s forwards;
     position: relative;
     right: 460px;
     bottom: 150px;
-    z-index: -1;
+    z-index: 1;
 }
 #diferencial #estrela6{
     animation: star66 1s forwards;
     position: relative;
     right: 530px;
     bottom: 150px;
-    z-index: -1;
+    z-index: 1;
 }
 #valores{
     text-align: center;
