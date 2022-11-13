@@ -1,0 +1,173 @@
+@keyframes fadeinflower {
+    from{
+        height: 0;
+    }
+    to{
+        height: 500px;
+    }
+}
+@keyframes star1 {
+    from{
+        right: 200px;
+        transform: rotateZ(0deg);
+    }
+    to{
+        right: 400px;
+        transform: rotateZ(360deg);
+    }
+}
+@keyframes star11 {
+    from{
+        right: 400px;
+        transform: rotateZ(360deg);
+    }
+    to{
+        right: 200px;
+        transform: rotateZ(0deg);
+    }
+}
+@keyframes star2 {
+    from{
+        right: 230px;
+        bottom: 150px;
+        transform: rotateZ(30deg);
+    }
+    to{
+        right: 430px;
+        bottom: 250px;
+        transform: rotateZ(390deg);
+    }
+    
+}
+@keyframes star22 {
+    from{
+        right: 430px;
+        bottom: 250px;
+        transform: rotateZ(390deg);
+    }
+    to{
+        right: 230px;
+        bottom: 150px;
+        transform: rotateZ(30deg);
+    }
+}
+    
+@keyframes star3 {
+    from{
+        right: 330px;
+        bottom: 150px;
+        transform: rotateZ(-30deg);
+    }
+    to{
+        right: 530px;
+        bottom: 50px;
+        transform: rotateZ(330deg);
+    }
+    
+}
+@keyframes star33 {
+    from{
+        right: 530px;
+        bottom: 50px;
+        transform: rotateZ(330deg);
+    }
+    to{
+        right: 330px;
+        bottom: 150px;
+        transform: rotateZ(-30deg);
+    }
+}
+@keyframes star4{
+    from{
+        right: 400px;
+        transform: rotateZ(0deg);
+    }
+    to{
+        right: 180px;
+        transform: rotateZ(-360deg);
+    }
+}
+@keyframes star44 {
+    from{
+        right: 180px;
+        transform: rotateZ(-360deg);
+    }
+    to{
+        right: 400px;
+        transform: rotateZ(0deg);
+    }
+}
+@keyframes star5 {
+    from{
+        right: 460px;
+        bottom: 150px;
+        transform: rotateZ(-30deg);
+    }
+    to{
+        right: 270px;
+        bottom: 250px;
+        transform: rotateZ(-390deg);
+    }
+    
+}
+@keyframes star55{
+    from{
+        right: 270px;
+        bottom: 250px;
+        transform: rotateZ(-390deg);
+    }
+    to{
+        right: 460px;
+        bottom: 150px;
+        transform: rotateZ(-30deg);
+    }
+    
+}
+@keyframes star6 {
+    from{
+        right: 520px;
+        bottom: 150px;
+        transform: rotateZ(-60deg);
+    }
+    to{
+        right: 330px;
+        bottom: 50px;
+        transform: rotateZ(-330deg);
+    }
+    
+}
+@keyframes star66 {
+    from{
+        right: 330px;
+        bottom: 50px;
+        transform: rotateZ(-330deg);
+    }
+    to{
+        right: 520px;
+        bottom: 150px;
+        transform: rotateZ(-60deg);
+    }
+}
+@keyframes trophy {
+    0%{
+        transform: scale(1) rotateZ(0deg);
+    }
+    33%{
+        transform: scale(1.1) rotateZ(5deg);
+    }
+    66%{
+        transform: scale(1.1) rotateZ(-5deg);
+    }
+    100%{
+        transform: scale(1) rotateZ(0deg);
+    }
+
+}
+@keyframes photos{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}

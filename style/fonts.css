@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'logo';
+    src: url(/fonts/Florentea.ttf);
+}
+@font-face {
+    font-family: 'regular';
+    src: url(/fonts/Louis\ George\ Cafe.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(/fonts/Louis\ George\ Cafe\ Bold.ttf);
+}

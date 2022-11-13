@@ -1,0 +1,139 @@
+@media screen and (max-width: 768px) {
+#cabecalho{
+    height: 50px;
+}
+#cabecalho-menu{
+    position: absolute;
+    left: 45%;
+}
+#cabecalho-menu a{
+    font-size: 10px;
+}
+#cabecalho-logo h1{
+    font-size: 30px;
+}
+#propaganda{
+    display: flex;
+    flex-direction: column;
+}
+#propaganda-imagem img{
+    width: 100%;
+}
+#propaganda-texto{
+    margin: 0 30px;
+}
+#propaganda-texto p{
+    font-size: 25px;
+}
+#rev-block{
+    animation: none;
+    opacity: 0;
+}
+#diferencial{
+    display: flex;
+    flex-direction: column;
+}
+#diferencial-imagem img{
+    width: 100%;
+}
+#diferencial p{
+    font-size: 25px;
+    margin: 30px 30px 0 30px;
+}
+#diferencial h1{
+    margin: 0 30px;
+}
+#diferencial-texto img{
+    width: 0;
+    height: 0;
+}
+#valores h1{
+    font-size: 30px;
+}
+#valores p{
+    font-size: 25px;
+    margin: 0 30px;
+}
+#endereco h1{
+    margin-top: 30px;
+    padding: 0;
+}
+#texto-topo h1{
+    font-size: 25px;
+}
+#primeiro{
+    flex-direction: column;
+}
+#primeiro img{
+    margin: 30px 10px 0 10px;
+    width: 200px;
+}
+#segundo{
+    flex-direction: column;
+}
+#segundo img{
+    margin: 30px 10px 0 10px;
+    width: 200px;
+}
+#terceiro{
+    flex-direction: column;
+}
+#terceiro img{
+    margin: 30px 10px 0 10px;
+    width: 200px;
+}
+#linha1-1{
+    background-color: #82af51;
+}
+#linha1-1:hover img{
+    animation: none;
+}
+#linha1-2{
+    background-color: #fefae0;
+}
+#linha1-2:hover img{
+    animation: none;
+}
+#linha1-3{
+    background-color: #82af51;
+}
+#linha1-3:hover img{
+    animation: none;
+}
+#linha2-1{
+    background-color: #fefae0;
+}
+#linha2-1:hover img{
+    animation: none;
+}
+#linha2-2{
+    background-color: #82af51;
+}
+#linha2-2:hover img{
+    animation: none;
+}
+#linha2-3{
+    background-color: #fefae0;
+}
+#linha2-3:hover img{
+    animation: none;
+}
+#linha3-1{
+    background-color: #82af51;
+}
+#linha3-1:hover img{
+    animation: none;
+}
+#linha3-2{
+    background-color: #fefae0;
+}
+#linha3-2:hover img{
+    animation: none;
+}
+#linha3-3{
+    background-color: #82af51;
+}
+#linha3-3:hover img{
+    animation: none;
+}
+}
