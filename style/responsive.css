@@ -77,6 +77,7 @@
 }
 #terceiro{
     flex-direction: column;
+    margin-bottom: 0;
 }
 #terceiro img{
     margin: 30px 10px 0 10px;
